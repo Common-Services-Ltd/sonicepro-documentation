@@ -1,2 +1,3 @@
 * [À propos](/apropos)
-* [Contact](/contact)
+* [Contact](
+/contact)
