@@ -1,3 +1,4 @@
 * [Accueil](/)
+* [Prérequis](/prerequis.md)
 * [Livraison](/livraison/)
-    * [Prérequis](/livraison/prerequis.md)
+    * [Configuration](/livraison/configuration.md)

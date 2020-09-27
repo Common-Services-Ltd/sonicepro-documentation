@@ -9,19 +9,29 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'SoNice PRO',
-      // logo: '/_media/logo.png',
-      repo: '',
-      themeColor: '#fb4f14',
-      loadSidebar: true,
-      loadNavbar: true,
-      search: 'auto'
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: 'SoNice PRO',
+    logo: '/_media/logo.png',
+    repo: '',
+    themeColor: '#fb4f14',
+    loadSidebar: true,
+    subMaxLevel: 2,
+    loadNavbar: true,
+    search: {
+      maxAge: 86400000,
+      paths: 'auto',
+      placeholder: 'Tapez votre recherche',
+      noData: 'Aucun résultat...',
+      depth: 4,
+      hideOtherSidebarContent: false,
+      namespace: 'sonicepro',
+      pathNamespaces: ['/', '/livraison', '/etiquetage', '/retour']
     }
-  </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
