@@ -24,6 +24,9 @@ pour les faire rentrer dans leur zone respective.
 
 ## Mise en place des frais de port
 
+Le module propose une tarification automatique basée sur l'offre Colissimo Privilège. Si vous ne souhaitez pas l'utiliser
+alors il faudra mettre en place vos grilles tarifaires manuellement.
+
 Pour chaque transporteur du module, assignez le bon tarif en fonction de la zone et du poids.  
 Pour plus d'information, vous pouvez vous référer [aux tarifs du contrat Colissimo Privilège](https://www.colissimo.entreprise.laposte.fr/fr/system/files/imagescontent/docs/TARIF-2020-PRIVILEGE-FR.pdf)
 ou sinon appliquer vos propres tarifs personnalisés.
