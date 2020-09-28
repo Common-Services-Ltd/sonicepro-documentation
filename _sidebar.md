@@ -2,3 +2,8 @@
 * [Prérequis](/prerequis.md)
 * [Livraison](/livraison/)
     * [Configuration](/livraison/configuration.md)
+    * [Utilisation](/livraison/utilisation.md)
+    * [Front-Office](/livraison/front-office.md)
+* [Étiquetage](/etiquetage/)
+    * [Configuration](/etiquetage/configuration.md)
+    * [Utilisation](/etiquetage/utilisation.md)

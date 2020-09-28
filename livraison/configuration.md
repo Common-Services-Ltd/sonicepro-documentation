@@ -10,7 +10,8 @@ Afin de recevoir vos identifiants et accéder au web service, il vous faut conta
 Colissimo et souscrire à [**un contrat professionnel Colissimo Domicile et Points de Retrait**](https://www.colissimo.entreprise.laposte.fr/system/files/imagescontent/docs/spec_ws_livraison.pdf).  
 Vous recevrez vos identifiants par email et il ne vous restera plus qu’à les utiliser dans la configuration du module.
 
-!> Vos identifiants de connexion au back-office Colissimo Entreprise ne font pas office d’identifiants pour ce
+> [!WARNING]
+> Vos identifiants de connexion au back-office Colissimo Entreprise ne font pas office d’identifiants pour ce
 module.
 
 ## Utiliser les tarifs de Colissimo
@@ -26,7 +27,8 @@ Vous aurez toujours la possibilité de limiter les transporteurs Colissimo du mo
 de livraison dans la grille tarifaire du transporteur, en modifiant les dimensions ou le poids maximum du transporteurs,
 etc.
 
-?> Lors du passage d'une commande, le module vérifie que le transporteur est compatible avec le pays de destination de
+> [!NOTE]
+> Lors du passage d'une commande, le module vérifie que le transporteur est compatible avec le pays de destination de
 la commande, et filtre automatiquement les transporteurs Colissimo non compatibles.
 
 ## Utiliser le calcul de Poids Volumétrique
@@ -37,7 +39,8 @@ uniquement).
 Le poids volumétrique est calculé en multipliant les 3 dimensions en centimètre de votre colis, et en divisant le
 résultat par 5000: `(L x l x h) / 5000`.
 
-?> Le module applique le tarif correspondant au poids volumétrique, si ce dernier est supérieur au poids réel du colis.
+> [!NOTE]
+> Le module applique le tarif correspondant au poids volumétrique, si ce dernier est supérieur au poids réel du colis.
 
 Un calculateur de poids volumétrique est [disponible dans votre espace Colissimo Entreprise](https://www.colissimo.entreprise.laposte.fr/fr/poids-volumetrique).
 

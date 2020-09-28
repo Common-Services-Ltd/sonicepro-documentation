@@ -29,4 +29,6 @@ Nous recommandons vivement l'utilisation d'un hébergement recommandé par Prest
 module. Le choix d'un tel hébergement vous garantit le bon fonctionnement du module et un support optimal en cas de
 nécessité.
 
-**Une version de PHP supérieure ou égale à 5.6.**
+> [!WARNING]
+> * Une version de PHP supérieure ou égale à 5.6.
+> * Le module est compatible avec PrestaShop 1.6 et 1.7 uniquement.
