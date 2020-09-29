@@ -7,3 +7,7 @@
 * [Étiquetage](/etiquetage/)
     * [Configuration](/etiquetage/configuration.md)
     * [Utilisation](/etiquetage/utilisation.md)
+* [Suivi de colis](/suivi/)
+    * [Configuration](/suivi/configuration.md)
+    * [Utilisation](/suivi/utilisation.md)
+    * [Front-Office](/suivi/front-office.md)

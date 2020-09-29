@@ -3,7 +3,7 @@ Rendez-vous dans l'onglet `Commandes > Colissimo - Étiquetage` pour générer v
 ## Interface
 
 Le module vous propose une interface similaire à l'onglet `Commandes > Commandes` de PrestaShop.  
-Chaque ligne représentant une commande Colissimo, avec les informations client, d'adresse et les documents disponibles
+Chaque ligne représentant une commande Colissimo, avec les informations clients, d'adresse et les documents disponibles
 pour l'impression.  
 De nombreux filtres sont également disponibles.
 
@@ -11,10 +11,14 @@ De nombreux filtres sont également disponibles.
 
 ## Génération d'étiquettes
 
-Sélectionnez les commandes pour lesquelles vous souhaitez générer une étiquette puis cliquer sur `Générer étiquett(e)`
-dans les actions groupées en bas du tableau des commandes.
+Pour générer uniquement une étiquette pour une commande, vous pouvez cliquer sur le bouton `Générer` en bout de ligne.
 
-[IMG]
+![Générer une étiquette](/../_media/generer-etiquette.png)
+
+Sinon, sélectionnez les commandes pour lesquelles vous souhaitez générer une étiquette puis cliquer sur
+`Générer étiquett(e)` dans les actions groupées en bas du tableau des commandes.
+
+![Générer plusieurs étiquettes](/../_media/generer-etiquettes.png)
 
 > [!NOTE]
 > Une commande ayant déjà une étiquette ne pourra pas en avoir une nouvelle même si vous sélectionnez la commande et
@@ -35,3 +39,24 @@ toutes les commandes d'un coup) et de cliquez sur `Imprimer étiquette(s)` dans 
 
 ## Imprimer le formulaire de douane CN23
 
+Si vous avez sélectionné le mode d'impression `PDF A4 (pour imprimante classique)` dans la configuration du module,
+alors le formulaire de douane CN23 sera disponible dans le PDF lors de l'impression de l'étiquette en 4 exemplaires.
+
+Dans le cas où vous avez sélectionné le mode d'impression `PDF 10x15cm (pour imprimante thermique / Datamax)`, il y aura
+un bouton en plus sur la ligne de la commande vous permettant d'imprimer le formulaire CN23 à part (car il ne peut pas
+être sorti sur imprimante thermique avec les étiquettes d'expédition).
+
+![Button d'impression du formulaire CN23](/../_media/CN23.png)
+
+## Imprimer le bordereau de remise
+
+De la même manière que pour l'impression des étiquettes d'expédition, sélectionnez les commandes que vous souhaitez voir
+apparaître sur le bordereau de remise, puis dans les actions groupées cliquez sur `Imprimer le bordereau de fin de
+journée`.
+
+![Bordereau de fin de journée](/../_media/bordereau-fin-journee.png)
+
+> [!WARNING]
+> Le nombre de commandes sur un bordereau de remise est limité, généralement, une centaine de commande au maximum.  
+> Si vous rencontrez une erreur dût à un trop grand nombre de commandes alors vous devrez générer plusieurs bordereaux
+> de remise.
