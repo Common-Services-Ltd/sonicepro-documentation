@@ -11,3 +11,6 @@
     * [Configuration](/suivi/configuration.md)
     * [Utilisation](/suivi/utilisation.md)
     * [Front-Office](/suivi/front-office.md)
+* [Retour colis](/retour/)
+    * [Configuration](/retour/configuration.md)
+    * [Utilisation](/retour/utilisation.md)
