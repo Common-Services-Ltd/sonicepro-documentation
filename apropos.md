@@ -16,5 +16,6 @@ Le module vous permet :
 * d'imprimer le bordereau de fin de journée
 * de suivre vos colis et changer les statuts de vos commandes automatiquement
 * d'envoyer l'étiquette retour à vos clients lorsqu'ils en font la demande
- 
-?> Une clé API Google n'est pas nécessaire !
+
+> [!NOTE] 
+> Une clé API Google n'est pas nécessaire !

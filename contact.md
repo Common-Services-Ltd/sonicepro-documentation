@@ -1,4 +1,5 @@
-?> Le support est disponible du lundi au vendredi, et **uniquement par e-mail**.
+> [!NOTE]
+> Le support est disponible du lundi au vendredi, et **uniquement par e-mail**.
 
 Pour tout support, merci de nous fournir :
 
